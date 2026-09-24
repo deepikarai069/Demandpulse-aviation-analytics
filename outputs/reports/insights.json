@@ -1,0 +1,169 @@
+{
+  "coverage": {
+    "first_month": "2015-04",
+    "last_month": "2026-07",
+    "months_with_data": 134,
+    "cities": 155,
+    "city_pairs": 1498,
+    "max_abs_reconciliation_gap_pct": 0.630815934854656,
+    "median_abs_reconciliation_gap_pct": 0.0
+  },
+  "yearly_pax_millions": {
+    "2016": 99.5,
+    "2017": 116.8,
+    "2018": 138.7,
+    "2019": 143.7,
+    "2020": 62.9,
+    "2021": 85.0,
+    "2022": 123.2,
+    "2023": 152.0,
+    "2024": 161.0,
+    "2025": 166.9
+  },
+  "estimated_months": [
+    "2021-05",
+    "2024-05"
+  ],
+  "pct_of_2019_in_2025": 116.1,
+  "ttm": {
+    "pax_millions": 167.5,
+    "growth_pct": 0.4
+  },
+  "top_markets": [
+    {
+      "market": "DELHI \u2013 MUMBAI",
+      "pax_millions": 6.78,
+      "share_pct": 4.0
+    },
+    {
+      "market": "BENGALURU \u2013 DELHI",
+      "pax_millions": 4.88,
+      "share_pct": 2.9
+    },
+    {
+      "market": "BENGALURU \u2013 MUMBAI",
+      "pax_millions": 4.13,
+      "share_pct": 2.5
+    },
+    {
+      "market": "DELHI \u2013 HYDERABAD",
+      "pax_millions": 3.11,
+      "share_pct": 1.9
+    },
+    {
+      "market": "DELHI \u2013 KOLKATA",
+      "pax_millions": 2.91,
+      "share_pct": 1.7
+    }
+  ],
+  "top10_share_pct": 20.3,
+  "markets_for_half_of_traffic": 48,
+  "top5_city_airport_share_pct": 52.4,
+  "top_cities": [
+    "DELHI",
+    "MUMBAI",
+    "BENGALURU",
+    "HYDERABAD",
+    "KOLKATA"
+  ],
+  "seasonality": {
+    "peak_month": "Dec",
+    "peak_index": 1.08,
+    "trough_month": "Jul",
+    "trough_index": 0.94
+  },
+  "airline_share_pct": {
+    "IndiGo": 64.2,
+    "Air India": 14.8,
+    "Air India Express": 11.5,
+    "Akasa Air": 5.3
+  },
+  "domestic_plf_ttm_avg": 85.1,
+  "model": {
+    "selected": "xgb",
+    "wape_pct": {
+      "ensemble": {
+        "1": 6.6,
+        "3": 9.0,
+        "6": 9.9,
+        "12": 12.1
+      },
+      "ets": {
+        "1": 7.2,
+        "3": 9.8,
+        "6": 11.6,
+        "12": 14.5
+      },
+      "snaive": {
+        "1": 10.9,
+        "3": 10.9,
+        "6": 11.0,
+        "12": 10.8
+      },
+      "snaive_drift": {
+        "1": 11.0,
+        "3": 12.7,
+        "6": 14.7,
+        "12": 16.3
+      },
+      "xgb": {
+        "1": 6.7,
+        "3": 9.3,
+        "6": 9.8,
+        "12": 10.8
+      }
+    },
+    "skill_vs_snaive_pct": {
+      "1": 38.7,
+      "3": 15.1,
+      "6": 10.7,
+      "12": 0.4
+    },
+    "interval_coverage_pct": {
+      "1": 77.4,
+      "3": 78.5,
+      "6": 78.8,
+      "12": 79.2
+    }
+  },
+  "forecast_next12m_vs_ttm_pct_top60": -0.2,
+  "top_opportunities": [
+    {
+      "rank": 1,
+      "market": "BAGDOGRA \u2013 DELHI",
+      "score": 76.6,
+      "segment": "Emerging star"
+    },
+    {
+      "rank": 2,
+      "market": "BENGALURU \u2013 DELHI",
+      "score": 70.7,
+      "segment": "Growth engine"
+    },
+    {
+      "rank": 3,
+      "market": "BENGALURU \u2013 PUNE",
+      "score": 70.2,
+      "segment": "Core trunk"
+    },
+    {
+      "rank": 4,
+      "market": "CHENNAI \u2013 KOLKATA",
+      "score": 70.2,
+      "segment": "Emerging star"
+    },
+    {
+      "rank": 5,
+      "market": "DELHI \u2013 KOLKATA",
+      "score": 69.2,
+      "segment": "Core trunk"
+    }
+  ],
+  "segment_counts": {
+    "Emerging star": 17,
+    "Watch \u2013 softening": 15,
+    "Steady": 14,
+    "Core trunk": 11,
+    "Growth engine": 3
+  }
+}
